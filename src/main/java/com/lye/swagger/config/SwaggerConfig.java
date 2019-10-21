@@ -48,6 +48,10 @@ public class SwaggerConfig {
                 .build();
     }
 
+    /**
+     * 其他人的接口模块
+     * @return
+     */
     @Bean
     public Docket docketA() {
         return new Docket(DocumentationType.SWAGGER_2).groupName("A");
